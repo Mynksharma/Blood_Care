@@ -1,16 +1,27 @@
-# Blood_Care
-🩸 BloodCare – Blood Bank Management System
+# 🩸 BloodCare – Blood Bank Management System
 
-A web-based application that connects blood seekers with hospitals efficiently. Users can search for available blood groups across registered hospitals and raise requests in emergencies. Hospitals can submit and update their blood inventory, making it easy for seekers to find the nearest matching donor location. The platform streamlines the communication between hospitals and those in urgent need of blood.
+A web-based application that connects blood seekers with hospitals efficiently. Users can search for available blood groups across registered hospitals and raise requests in emergencies. Hospitals can submit and update their blood inventory, making it easy for seekers to find the nearest matching donor location. The platform streamlines communication between hospitals and those in urgent need of blood.
 
-Tech Stack: HTML, CSS, JavaScript, PHP, MySQL
+---
 
-Key Features:
+## 🛠️ Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+- PHP  
+- MySQL
+- Bootstrap 
 
-Search and filter hospitals by blood group availability
+---
 
-Request blood units directly from hospitals
+## 🚀 Key Features
+- 🔍 Search and filter hospitals by blood group availability  
+- 🩸 Request blood units directly from hospitals  
+- 🏥 Hospital login to manage and update available blood groups  
+- 📱 Responsive and user-friendly UI for both seekers and hospitals
 
-Hospital login to manage and update available blood groups
+## 📸 Screenshots
+| Home Page                                    | Search Blood                                   | Hospital Dashboard                                |
+| -------------------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
+| ![Home](https://via.placeholder.com/300x200) | ![Search](https://via.placeholder.com/300x200) | ![Dashboard](https://via.placeholder.com/300x200) |
 
-Responsive and user-friendly UI for both seekers and hospitals

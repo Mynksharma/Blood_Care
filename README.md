@@ -21,7 +21,7 @@ A web-based application that connects blood seekers with hospitals efficiently. 
 - 📱 Responsive and user-friendly UI for both seekers and hospitals
 
 ## 📸 Screenshots
-| Home Page                                    | Search Blood                                   | Hospital Dashboard                                |
-| -------------------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
-| ![Home](/images/home.png) | ![Search](/images/available_blood.png) | ![Dashboard](/images/admin.png) |
+| Home Page                                    |
+| -------------------------------------------- |
+| ![Home](/images/home.png) |
 

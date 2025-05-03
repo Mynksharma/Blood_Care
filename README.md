@@ -25,3 +25,21 @@ A web-based application that connects blood seekers with hospitals efficiently. 
 | -------------------------------------------- |
 | ![Home](/images/home.png) |
 
+| Search Blood                                 |
+| -------------------------------------------- |
+| ![Search](/images/available_blood.png) |
+
+| Hospital Dashboard                           |
+| -------------------------------------------- |
+| ![Dashboard1](/images/admin.png) |
+| ![Dashboard2](/images/admin_2.png) |
+
+| Blood Request                                |
+| -------------------------------------------- |
+| ![Home](/images/request.png) |
+
+| Login & Signup                               |
+| -------------------------------------------- |
+| ![Login](/images/signup.png) |
+| ![Signup](/images/login.png) |
+

@@ -1,0 +1,123 @@
+body{
+    margin:0;padding:0;font-family: 'Montserrat', sans-serif;min-width:320px;
+}
+.navlins{
+    color:black;font-family: 'Poppins', sans-serif;font-size:15px;text-align: center;
+    cursor: pointer;
+}
+.navlins:hover{
+    color:#8cb654 !important;
+}
+.brand{
+    font-weight: bold;color:black;text-decoration: none;
+ }
+ .banner{
+    background: url(../images/drop.jpg) no-repeat center center;
+    background-size: cover;
+    height:85vh;position: relative;
+    margin-top:56px;display: flex;justify-content: center;align-items: center;
+ }
+ #mynav{
+     background-color: white;padding-left:20px;padding-right: 20px;
+ }
+ .banner_content {position: relative;}
+ .banner_content button{
+        position: absolute;margin:10px auto;left:0;right:0;border:none;background-color:maroon;color:white;
+}
+.hyperlink{
+    text-decoration: none;
+
+}
+.banner_content h2{
+    text-align: center;color:white;font-weight: bold;text-shadow:3px 1px 6px black;
+}
+.who_we_are{
+    background-color: #EEEEEE;min-height:300px;padding:20px;
+    top:30px;z-index:2;right:-50px;margin-bottom:20px;
+}
+
+.who_we_are h1,.achievements h1,.contact_row h2{
+    font-weight: bold;
+}
+.whoweare_row{
+    padding:10px;margin:0;position:relative;
+}
+.achievements_row{
+    padding:10px;margin:0;position:relative;
+}
+.achievements{
+    background-color: #EEEEEE;min-height:300px;padding:20px;width:100%;display:flex;flex-direction: column;align-items:center;
+
+}
+.cards{
+    display:flex;padding:10px;justify-content: space-around;width:80%;
+}
+.cards_inner{
+    padding:10px;background-color:white;font-weight:bold;min-height: 150px;display:flex;flex-direction: column;align-items: flex-start;
+    justify-content: flex-end;min-width: 160px; margin-bottom:15px;
+}
+.cards_inner div p{
+    margin:0;
+}
+.cards_inner div img{
+    width:50px;height:auto;
+}
+.footer{
+    background-color: #535353;width:100%;margin:0;padding:20px 0;color:white;
+}
+.contact_row{
+margin:0;width:100%;padding-top:20px;
+}
+.follow_images img{
+    width:50px;margin-right:10px;margin-top:10px;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+.whoweare_row{
+    background: url(../images/doc.jpg) no-repeat center center; 
+    background-size: cover;
+}
+#docimg{
+    display:none;
+}
+.footer_img img{
+    display: none;
+}
+.who_we_are{
+    right:0;top:0;margin:0;
+    background-color:rgba(255,255,255,0.92);
+}
+}
+@media screen and (max-width:980px){
+
+.who_we_are{
+    padding:15px;
+}
+.who_we_are p,.who_we_are ul li{
+    font-size: 14px;
+}
+}
+@media screen and (max-width:520px){
+    .who_we_are h1{
+        font-size:30px;
+    }
+    .achievements h1{
+        font-size: 20px;
+    }
+    .cards{
+        width:90%;
+    }
+   .achievements{
+    padding:15px;
+   }
+}
+@media screen and (min-width: 992px){
+    #signupdropdown{
+        margin-left:-70px !important;
+    }
+}

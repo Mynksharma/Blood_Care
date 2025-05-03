@@ -1,0 +1,72 @@
+body{
+    margin:0;padding:0;font-family: 'Montserrat', sans-serif;display:flex;flex-direction: column;justify-content: space-between;
+    min-height: 100vh;min-width:320px;
+}
+.navlins{
+    color:black;font-family: 'Poppins', sans-serif;font-size:15px;text-align: center;
+    cursor: pointer;
+}
+.navlins:hover{
+    color:#8cb654 !important;
+}
+.brand{
+    font-weight: bold;color:black;text-decoration: none;
+ }
+.hosdetails{
+    padding:20px;
+}
+.modalimgpng{
+    cursor:pointer;
+}
+.bloodspan{
+    padding:5px 10px;background-color:#DCDCDC;font-weight:bold;margin:0 3px;border-radius:5px;
+}
+#editbtn{
+    cursor:pointer;margin-left: 10px;color:red;font-weight: bold;
+}
+#editbtn:hover{
+    color:grey;
+    text-decoration:underline;
+}
+#mynav{
+    background-color: white;padding-left:20px;padding-right: 20px;
+}
+.content{
+    margin: 60px 0 0 0;
+}
+.content2{
+    margin:30px 0;
+}
+.opt{
+    padding:20px;min-height:200px;
+}
+.optinner{
+display:flex;align-items: center;justify-content: center;background-color:#ffcbc5;height:100%;padding:10px;
+cursor:pointer;
+
+}
+.optinner:hover{
+    border:5px solid salmon;
+}
+.footer{
+    background-color: #535353;width:100%;margin:0;padding:20px 0;color:white;
+}
+.contact_row{
+margin:0;width:100%;padding-top:20px;
+}
+.follow_images img{
+    width:50px;margin-right:10px;margin-top:10px;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_row h2{
+    font-weight: bold;
+}
+@media screen and (max-width:768px){
+    .footer_img img{
+        display: none;
+    }
+    }

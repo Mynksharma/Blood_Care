@@ -1,0 +1,123 @@
+body{
+    margin:0;padding:0;font-family: 'Montserrat', sans-serif;display:flex;
+    flex-direction: column;
+    justify-content: space-between;min-height: 100vh;min-width:320px;
+}
+.navlins{
+    color:black;font-family: 'Poppins', sans-serif;font-size:15px;text-align: center;
+    cursor: pointer;
+}
+.navlins:hover{
+    color:#8cb654 !important;
+}
+.bloodspan{
+    padding:5px 10px;background-color:#DCDCDC;font-weight:bold;margin:0 3px;
+}
+
+.brand{
+    font-weight: bold;color:black;text-decoration: none;
+ }
+ #mynav{
+    background-color: white;
+}
+ .choose{
+     padding:10px;
+     background-color: salmon;margin:56px 0 0 0;
+ }
+ .choose span{
+     color:white;font-weight: bold;
+     padding:0 20px;text-shadow:3px 1px 5px black;font-size: 20px;
+ }
+ .searchbtn{
+     border-radius:10px;
+     background-color: #A20303;color:white;font-weight: bold;
+ }
+ .table_row div table{
+    border-collapse: collapse;width:100%;
+ }
+ #tab{
+    max-height:300px;overflow-y: scroll;
+ }
+ .table_row{
+     width:100%;margin:0;padding:50px 20px;
+ }
+ .table_row div table th,.table_row div table td{
+    border: 1px solid #dddddd;
+    text-align:center;
+    padding: 8px;
+ }
+ .table_row div table th{
+     background-color: black;
+     color:white;font-weight: bold;
+ }
+ .donebtn{
+     padding:8px 20px;
+     background-color: salmon;position:absolute;margin:auto;left:0;right:0;border:none;
+     font-weight:bold;
+ }
+ .contact_row h2{
+    font-weight: bold;
+}
+ .footer{
+    background-color: #535353;width:100%;margin:0;padding:20px 0;color:white;
+}
+.mob p{
+    text-align: left;
+    margin-bottom:5px;
+}
+.mob p:nth-child(1){
+font-weight: bold;font-size:20px;
+}
+.mob p:nth-child(2)::before{
+    content:'State:  ';font-weight: bold;
+}
+.mob p:nth-child(3)::before{
+    content:'Available Blood type:  ';font-weight: bold;
+}
+.mob p:nth-child(4)::before{
+    content:'Contact:  ';font-weight: bold;
+}
+.contact_row{
+margin:0;width:100%;padding-top:20px;
+}
+.follow_images img{
+    width:50px;margin-right:10px;margin-top:10px;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ @media screen and (max-width:768px){
+     .choose div{
+margin-bottom:10px;
+text-align:center;
+     }
+     .choose div span{
+         padding-left:0;
+     }
+     .table_row div table tr, .table_row div table tr button{
+         font-size: 14px;
+     }
+     .footer_img img{
+        display: none;
+    }
+ }
+ @media screen and (min-width:551px){
+     .mob{
+         display:none;
+     }
+ }
+ @media screen and (max-width:550px){
+    .choose div{
+        text-align:left;
+             }
+             .thhidden{
+                 display:none;
+             }
+}
+@media screen and (min-width: 992px){
+    #signupdropdown{
+        margin-left:-70px !important;
+    }
+}

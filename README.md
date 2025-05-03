@@ -1,2 +1,16 @@
 # Blood_Care
-A web app that connects blood seekers with hospitals. Users can search available blood groups and raise requests. Hospitals can update their blood inventory, helping seekers quickly find matching blood types and nearby hospitals in emergencies.
+🩸 BloodCare – Blood Bank Management System
+
+A web-based application that connects blood seekers with hospitals efficiently. Users can search for available blood groups across registered hospitals and raise requests in emergencies. Hospitals can submit and update their blood inventory, making it easy for seekers to find the nearest matching donor location. The platform streamlines the communication between hospitals and those in urgent need of blood.
+
+Tech Stack: HTML, CSS, JavaScript, PHP, MySQL
+
+Key Features:
+
+Search and filter hospitals by blood group availability
+
+Request blood units directly from hospitals
+
+Hospital login to manage and update available blood groups
+
+Responsive and user-friendly UI for both seekers and hospitals
